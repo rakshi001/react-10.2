@@ -6,12 +6,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
+            <Route path="/" element={<HomePage />}></Route>
             <Route
-              path="/neet/online-coaching-class-11"
+              path="neet/online-coaching-class-11"
               element={<Class11Program />}
             />
             <Route
-              path="/neet/online-coaching-class-12"
+              path="neet/online-coaching-class-12"
               element={<Class12Program />}
             />
             <Route path="*" element={<PageNotFound />} />
@@ -50,7 +51,7 @@ function Footer() {
   return <div>Contact Us | Careers | Allen Org</div>;
 }
 
-function Home() {
+function HomePage() {
   return <div>Home page</div>;
 }
 
