@@ -1,12 +1,30 @@
-# React + Vite
+# React Router Layout Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a basic single-page application (SPA) built using **React** and **React Router v6+** to understand layout structures, nested routes, and routing logic.
 
-Currently, two official plugins are available:
+## 📚 What I Learned
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- How to use **React Router** with nested routes
+- How to build a **shared layout** using `<Outlet />`
+- How to conditionally render different pages based on URL
+- Organizing components into header, footer, and dynamic content sections
+- Using `.gitignore` to avoid pushing unwanted files (e.g., node_modules)
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router v6
+- Vite (for fast development)
+- Basic CSS/inline styling
+
+## 🚀 Routes Implemented
+
+- `/` → Home Page
+- `/neet/online-coaching-class-11` → Class 11 NEET Program
+- `/neet/online-coaching-class-12` → Class 12 NEET Program
+- `*` → Page Not Found (404)
+
+## 💡 Purpose
+
+This is not a production-level project — it's a learning exercise to practice **React Router layout nesting**, building a **SPA**, and understanding how **dynamic routing** works in modern React apps.
+
